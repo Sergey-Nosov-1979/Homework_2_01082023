@@ -13,15 +13,15 @@ else:
     Addition = x + y
     Multiplication = x * y
     stop = 0
-    for i in range(11):
+    for i in range(1001):
         if stop != 1 and i > 0:
-            for j in range(11):
+            for j in range(1001):
                 if stop != 1 and  j > 0:
                     if i * j == Multiplication and i + j == Addition:
                         print((f'Одно из загаданных чисел - {i}'))
                         print((f'Второе из загаданных чисел - {j}'))
                         stop = 1
                 else:
-                    j = 11
+                    j = 1001
         else:
-            i = 11
+            i = 1001
